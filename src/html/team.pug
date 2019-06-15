@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        link(rel="stylesheet", href="../bower_components/normalize-css/normalize.css")
+        link(rel="stylesheet", href="../bower_components/bootstrap/dist/css/bootstrap.min.css")
+        link(rel="stylesheet", href="../bower_components/font-awesome-5/all.min.css")
+        link(rel="stylesheet", href="../css/team.css")
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Team
+    body
+        nav.navbar.navbar-expand-lg.ml-5.mt-2.navbar-dark.bg-light
+            a.navbar-brand(href='index.html') ToF PC
+            button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarSupportedContent.collapse.navbar-collapse
+                ul.navbar-nav.mr-auto
+                    li.nav-item
+                        a.nav-link(href='#') Preparatory
+                    li.nav-item
+                        a.nav-link(href='#') Specifications
+                    li.nav-item
+                        a.nav-link(href='#') Realization
+                    li.nav-item.active
+                        a.nav-link(href='#')
+                            | Team 
+                            span.sr-only (current)
+        .container.team
+            .row
+                .col-8.offset-2.mt-4.text-center #[i.fab.fa-github-square]
+                    h1 The Team
+            .row
+                .col-10.offset-1
+                    p.text-center Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita corporis qui laboriosam temporibus dignissimos deleniti voluptate mollitia cupiditate corrupti rem. Qui obcaecati a totam possimus reprehenderit voluptatem eaque, dolore ex.
+            .row
+                .col-12.col-lg-4.mt-5
+                    .card(style='width: 18rem;')
+                        //- h5.card-header.text-center.bg-light Web Developer
+                        img.card-img-top(src='../media/pic_neri.jpg', alt='...')
+                        .card-body
+                            h5.card-title David Ramirez
+                            h6.card-subtitle.mb-2.text-muted #[i.fab.fa-github-square] Web Developer
+                            p.card-text
+                                | Some quick example text to build on the card title and make up the bulk of the card's content.
+                            h6.card-subtitle.mb-2.text-muted #[i.fab.fa-github-square]
+                                    | @
+                                    a(href="#", title="title") davidsrn
+                            //- a.card-link(href='#') Card link
+                            //- a.card-link(href='#') Another link
+                .col-12.col-lg-4.mt-5
+                    .card(style='width: 18rem;')
+                        //- h5.card-header.text-center.bg-light Web Developer
+                        img.card-img-top(src='../media/pic_neri.jpg', alt='...')
+                        .card-body
+                            h5.card-title Alejandro Neri 
+                            h6.card-subtitle.mb-2.text-muted Web Developer
+                            p.card-text
+                                | Some quick example text to build on the card title and make up the bulk of the card's content.
+                            h6.card-subtitle.mb-2.text-muted
+                                 | @
+                                 a(href="#", title="title") ale-neri97
+                            //- a.card-link(href='#') Card link
+                            //- a.card-link(href='#') Another link
+                .col-12.col-lg-4.mt-5
+                    .card(style='width: 18rem;')
+                        //- h5.card-header.text-center.bg-light Web Developer
+                        img.card-img-top(src='../media/pic_neri.jpg', alt='...')
+                        .card-body
+                            h5.card-title Filiberto Vazquez
+                            h6.card-subtitle.mb-2.text-muted Web Developer
+                            //- h6.card-subtitle.mb-2.text-muted Web Developer
+                            p.card-text
+                                | Some quick example text to build on the card title and make up the bulk of the card's content.
+                            h6.card-subtitle.mb-2.text-muted
+                                | @
+                                a(href="#", title="title") filyv
+                            //- a.card-link(href='#') Card link
+                            //- a.card-link(href='#') Another link
+        script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js', integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo', crossorigin='anonymous')
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1', crossorigin='anonymous')
+        script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM', crossorigin='anonymous')

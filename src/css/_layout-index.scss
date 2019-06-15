@@ -1,5 +1,17 @@
 body {
-    background: #AAFFA9;
-    background: -webkit-linear-gradient(to right, #11FFBD, #AAFFA9);
-    background: linear-gradient(to right, #11FFBD, #AAFFA9);
+    background: #2193b0;
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.home{
+    color: white;
+}
+
+img{
+    width: 100%;
 }

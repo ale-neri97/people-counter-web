@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 html(lang="en")
     head
-        link(rel="stylesheet", href="../css/index.css")
         link(rel="stylesheet", href="../bower_components/normalize-css/normalize.css")
         link(rel="stylesheet", href="../bower_components/bootstrap/dist/css/bootstrap.min.css")
+        link(rel="stylesheet", href="../css/index.css")
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        title Document
+        title Home
     body
-        h1 Hello
+        nav.navbar.navbar-expand-lg.ml-5.mt-2.navbar-dark.bg-light
+            a.navbar-brand(href='#') ToF PC
+            button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarSupportedContent.collapse.navbar-collapse
+                ul.navbar-nav.mr-auto
+                    //- li.nav-item.active
+                    //-     a.nav-link(href='#')
+                    //-         | Home 
+                            //- span.sr-only (current)
+                    li.nav-item
+                        a.nav-link(href='#') Preparatory
+                    li.nav-item
+                        a.nav-link(href='#') Specifications
+                    li.nav-item
+                        a.nav-link(href='#') Realization
+                    li.nav-item
+                        a.nav-link(href='./team.html') Team
+        .container.home.mt-4
+            .row
+                .col-12.text-center
+                    h1 People Counter on Tof Camera
+            .row.mt-lg-5
+                .col-10.offset-1.text-center.mt-5.col-lg-6.offset-lg-1.text-lg-left
+                    //- de inicio va al centro +3-6 text-center | md -> +4-4 text-justify
+                    h2 Description
+                    p.mt-3
+                        | The system obtains amplitude and phases sequences from a livestream provided by a Texas Instruments Time of Flight Camera, sequences that are filtered in order to reduce noise, and recognize the background. Afterwards we apply Artificial Intelligence algorithms to recognize faces and bodies in the scene. With that information we can track, differentiate, contour and count people in the camera range, and finally we store and display the information.
+
+                    //- a.btn.btn-outline-light(href='#') Quiero ser orador
+                    //- button.btn.btn-personal(type='button', data-toggle='modal', data-target='#modalCompra') Comprar tickets
+                .col-6.offset-3.mt-3.col-lg-4.offset-lg-1
+                    img(src="../media/3DToFD.png", alt="")
+
+            script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js', integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo', crossorigin='anonymous')
+            script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1', crossorigin='anonymous')
+            script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM', crossorigin='anonymous')
+
