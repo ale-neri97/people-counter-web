@@ -3,7 +3,7 @@ html(lang="en")
     head
         link(rel="stylesheet", href="../bower_components/normalize-css/normalize.css")
         link(rel="stylesheet", href="../bower_components/bootstrap/dist/css/bootstrap.min.css")
-        link(rel="stylesheet", href="../bower_components/font-awesome-5/all.min.css")
+        link(rel="stylesheet", href="../bower_components/font-awesome-5/css/all.min.css")
         link(rel="stylesheet", href="../css/team.css")
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
@@ -21,14 +21,14 @@ html(lang="en")
                     li.nav-item
                         a.nav-link(href='#') Specifications
                     li.nav-item
-                        a.nav-link(href='#') Realization
+                        a.nav-link(href='./realization.html') Realization
                     li.nav-item.active
                         a.nav-link(href='#')
                             | Team 
                             span.sr-only (current)
         .container.team
             .row
-                .col-8.offset-2.mt-4.text-center #[i.fab.fa-github-square]
+                .col-8.offset-2.mt-4.text-center
                     h1 The Team
             .row
                 .col-10.offset-1
@@ -40,10 +40,10 @@ html(lang="en")
                         img.card-img-top(src='../media/pic_neri.jpg', alt='...')
                         .card-body
                             h5.card-title David Ramirez
-                            h6.card-subtitle.mb-2.text-muted #[i.fab.fa-github-square] Web Developer
+                            h6.card-subtitle.mb-2.text-muted Web Developer
                             p.card-text
                                 | Some quick example text to build on the card title and make up the bulk of the card's content.
-                            h6.card-subtitle.mb-2.text-muted #[i.fab.fa-github-square]
+                            h6.card-subtitle.mb-2.text-muted
                                     | @
                                     a(href="#", title="title") davidsrn
                             //- a.card-link(href='#') Card link

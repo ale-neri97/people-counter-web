@@ -80475,6 +80475,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/src\/css\/_layout-realization.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/app\/css\/_layout-realization.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/src\/css\/_layout-team.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -80514,6 +80527,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/src\/css\/realization.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/app\/css\/realization.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/src\/css\/team.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -80534,7 +80560,25 @@
 		"oA": 0,
 		"oAP": "\/app\/html\/index.html",
 		"oF": 0,
-		"oS": 0
+		"oS": 1
+		},
+	"\/src\/html\/realization.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/app\/html\/realization.html",
+		"oF": 0,
+		"oS": 1
+		},
+	"\/src\/html\/specs.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/app\/html\/specs.html",
+		"oF": 0,
+		"oS": 1
 		},
 	"\/src\/html\/team.pug": {
 		"cB": 0,
@@ -80543,7 +80587,7 @@
 		"oA": 0,
 		"oAP": "\/app\/html\/team.html",
 		"oF": 0,
-		"oS": 0
+		"oS": 1
 		},
 	"\/src\/media\/3DToFD.png": {
 		"ft": 32768,
@@ -82480,7 +82524,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {

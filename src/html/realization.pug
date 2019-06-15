@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        link(rel="stylesheet", href="../bower_components/normalize-css/normalize.css")
+        link(rel="stylesheet", href="../bower_components/bootstrap/dist/css/bootstrap.min.css")
+        link(rel="stylesheet", href="../bower_components/font-awesome-5/css/all.min.css")
+        link(rel="stylesheet", href="../css/realization.css")
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Realization
+    body
+        nav.navbar.navbar-expand-lg.ml-5.mt-2.navbar-dark.bg-light
+            a.navbar-brand(href='index.html') ToF PC
+            button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarSupportedContent.collapse.navbar-collapse
+                ul.navbar-nav.mr-auto
+                    li.nav-item
+                        a.nav-link(href='./preparatory.html') Preparatory
+                    li.nav-item
+                        a.nav-link(href='./specs.html') Specifications
+                    li.nav-item.active
+                        a.nav-link(href='./realization.html') 
+                            | Realization
+                            span.sr-only (current)
+                    li.nav-item
+                        a.nav-link(href='./team.html') Team 
+        .container.team
+            .row
+                .col-8.offset-2.mt-4.text-center
+                    h1 The Project Log
+            .row
+                .col-10.offset-1
+                    p.text-center Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita corporis qui laboriosam temporibus dignissimos deleniti voluptate mollitia cupiditate corrupti rem. Qui obcaecati a totam possimus reprehenderit voluptatem eaque, dolore ex.
+            .row.mt-5
+                .col-md-10.offset-md-1.mt-2.linea-tiempo
+                    h4 Latest News
+                    ul.timeline
+                        li
+                            a(target='_blank', href='https://www.totoprayogo.com/#') New Web Design
+                            a.float-right(href='#') 21 March, 2014
+                            p
+                                | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....
+                        li
+                            a(href='#') 21 000 Job Seekers
+                            a.float-right(href='#') 4 March, 2014
+                            p
+                                | Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...
+                        li
+                            a(href='#') Awesome Employers
+                            a.float-right(href='#') 1 April, 2014
+                            p
+                                | Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...
+
+
+        script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js', integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo', crossorigin='anonymous')
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1', crossorigin='anonymous')
+        script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM', crossorigin='anonymous')
