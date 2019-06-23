@@ -64444,20 +64444,19 @@
 		"oAP": "\/app\/bower_components\/font-awesome-5\/LICENSE.txt",
 		"oF": 0
 		},
+	"\/bower_components\/font-awesome-5\/metadata\/.icons.json.icloud": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/bower_components\/font-awesome-5\/metadata\/.icons.json.icloud",
+		"oF": 0
+		},
 	"\/bower_components\/font-awesome-5\/metadata\/categories.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/app\/bower_components\/font-awesome-5\/metadata\/categories.yml",
 		"oF": 0
-		},
-	"\/bower_components\/font-awesome-5\/metadata\/icons.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "\/app\/bower_components\/font-awesome-5\/metadata\/icons.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
 		},
 	"\/bower_components\/font-awesome-5\/metadata\/icons.yml": {
 		"cB": 0,
@@ -80444,6 +80443,13 @@
 		"oAP": "\/app\/bower_components\/normalize-css\/test.html",
 		"oF": 0
 		},
+	"\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/app\/index.html",
+		"oF": 0
+		},
 	"\/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -80475,6 +80481,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/src\/css\/_layout-prep.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/app\/css\/_layout-prep.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/src\/css\/_layout-realization.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -80484,6 +80503,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/app\/css\/_layout-realization.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/css\/_layout-specs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/app\/css\/_layout-specs.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -80527,6 +80559,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/src\/css\/prep.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/app\/css\/prep.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/src\/css\/realization.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -80536,6 +80581,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/app\/css\/realization.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/css\/specs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/app\/css\/specs.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -80559,6 +80617,15 @@
 		"ft": 512,
 		"oA": 0,
 		"oAP": "\/app\/html\/index.html",
+		"oF": 0,
+		"oS": 1
+		},
+	"\/src\/html\/prep.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/app\/html\/prep.html",
 		"oF": 0,
 		"oS": 1
 		},
@@ -80589,6 +80656,13 @@
 		"oF": 0,
 		"oS": 1
 		},
+	"\/src\/html\/vs.code-workspace": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/app\/html\/vs.code-workspace",
+		"oF": 0
+		},
 	"\/src\/media\/3DToFD.png": {
 		"ft": 32768,
 		"iS": 464044,
@@ -80598,6 +80672,28 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/src\/media\/pic_david.jpg": {
+		"ft": 16384,
+		"iS": 203114,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/media\/pic_david.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/media\/pic_fily.jpg": {
+		"ft": 16384,
+		"iS": 258241,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/media\/pic_fily.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/src\/media\/pic_neri.jpg": {
@@ -80610,6 +80706,20 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"\/src\/media\/videos\/lorem.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/app\/media\/videos\/lorem.mp4",
+		"oF": 0
+		},
+	"\/vs.code-workspace": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/app\/vs.code-workspace",
+		"oF": 0
 		}
 	},
 "hooks": [

@@ -8,7 +8,7 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        title Home
+        title People Counter with 3D ToF Camera
     body
         nav.navbar.navbar-expand-lg.ml-5.mt-2.navbar-dark.bg-light
             a.navbar-brand(href='#') ToF PC
@@ -21,7 +21,7 @@ html(lang="en")
                     //-         | Home 
                             //- span.sr-only (current)
                     li.nav-item
-                        a.nav-link(href='./preparatory.html') Preparatory
+                        a.nav-link(href='./prep.html') Preparatory
                     li.nav-item
                         a.nav-link(href='./specs.html') Specifications
                     li.nav-item
@@ -31,7 +31,7 @@ html(lang="en")
         .container.home.mt-4
             .row
                 .col-12.text-center
-                    h1 People Counter on ToF Camera
+                    h1 People Counter with 3D ToF Camera
             .row
                 .col-10.offset-1
                     p.text-center Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita corporis qui laboriosam temporibus dignissimos deleniti voluptate mollitia cupiditate corrupti rem.
@@ -42,12 +42,14 @@ html(lang="en")
                     p.mt-3
                         | The system obtains amplitude and phases sequences from a livestream provided by a Texas Instruments Time of Flight Camera, sequences that are filtered in order to reduce noise, and recognize the background. Afterwards we apply Artificial Intelligence algorithms to recognize faces and bodies in the scene. With that information we can track, differentiate, contour and count people in the camera range, and finally we store and display the information.
 
-                    //- a.btn.btn-outline-light(href='#') Quiero ser orador
-                    //- button.btn.btn-personal(type='button', data-toggle='modal', data-target='#modalCompra') Comprar tickets
                 .col-6.offset-3.mt-3.col-lg-4.offset-lg-1
                     img(src="../media/3DToFD.png", alt="")
-
-            script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js', integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo', crossorigin='anonymous')
-            script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1', crossorigin='anonymous')
-            script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM', crossorigin='anonymous')
+            .row
+                .col-10.offset-1.mt-5
+                    h2.text-center Video
+                    video(src="../media/videos/lorem.mp4")
+            
+        script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js', integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo', crossorigin='anonymous')
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1', crossorigin='anonymous')
+        script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM', crossorigin='anonymous')
 
